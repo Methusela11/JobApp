@@ -138,7 +138,7 @@ fun WelcomeScreen(navController: NavHostController) {
                                         )
                                         .background(
                                             if (pagerState.currentPage == index)
-                                                Color(0xFF19B09F)
+                                                Color(0xFFE6B36A)
                                             else Color.Gray,
                                             shape = CircleShape
                                         )
@@ -150,19 +150,19 @@ fun WelcomeScreen(navController: NavHostController) {
 
                         Button(
                             onClick = {
-                                navController.navigate("login")
+                                navController.navigate("auth")
                             },
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .height(55.dp),
                             shape = RoundedCornerShape(50),
                             colors = ButtonDefaults.buttonColors(
-                                containerColor = Color(0xFF19B09F)
+                                containerColor = Color(0xFFE6B36A)
                             )
                         ) {
                             Text(
-                                text = "Explore",
-                                color = Color.White,
+                                text = "Get Started",
+                                color = Color.Black,
                                 fontSize = 20.sp,
                                 fontWeight = FontWeight.Bold,
                                 letterSpacing = 1.sp

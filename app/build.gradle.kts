@@ -41,6 +41,15 @@ android {
 
 dependencies {
 
+// Firebase BOM (ONLY ONCE)
+    implementation(platform("com.google.firebase:firebase-bom:34.12.0"))
+
+// Firebase services (NO versions)
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-firestore")
+    implementation("com.google.firebase:firebase-analytics")
+    implementation("androidx.compose.material:material-icons-extended")
+
     // Navigation
     implementation("androidx.navigation:navigation-compose:2.7.7")
 
@@ -48,7 +57,9 @@ dependencies {
     implementation("androidx.compose.foundation:foundation:1.6.0")
 
 // Coroutines
+
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

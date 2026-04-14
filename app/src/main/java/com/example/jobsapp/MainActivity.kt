@@ -20,10 +20,14 @@ class MainActivity : ComponentActivity() {
 fun JobApp() {
     val navController = rememberNavController()
 
-    NavHost(navController = navController, startDestination = "welcome") {
+    NavHost(navController = navController, startDestination = "auth") {
 
         composable("welcome") {
             WelcomeScreen(navController)
+        }
+
+        composable("auth") {
+            AuthScreen(navController)
         }
 
         composable("login") {

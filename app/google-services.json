@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "526102825919",
+    "project_id": "jobsapp-33106",
+    "storage_bucket": "jobsapp-33106.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526102825919:android:8ed15393c40d3b34962f0a",
+        "android_client_info": {
+          "package_name": "com.example.jobsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTvE_DujpwKWklq0qcvC5BrOEOaPvarX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
